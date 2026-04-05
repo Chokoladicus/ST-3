@@ -9,7 +9,7 @@ class MockTimerClient : public TimerClient {
 };
 
 class TimedDoorTest : public ::testing::Test {
-protected:
+ protected:
     void SetUp() override {
         door = new TimedDoor(5);
         adapter = new DoorTimerAdapter(*door);
