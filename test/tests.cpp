@@ -1,8 +1,7 @@
 // Copyright 2021 GHA Test Team
-
+#include "TimedDoor.h"
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "TimedDoor.h"
 
 class MockTimerClient : public TimerClient {
 public:
