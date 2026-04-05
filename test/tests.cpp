@@ -4,7 +4,7 @@
 #include <gmock/gmock.h>
 
 class MockTimerClient : public TimerClient {
-public:
+ public:
     MOCK_METHOD(void, Timeout, (), (override));
 };
 
